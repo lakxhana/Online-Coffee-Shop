@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Mini_Project_2A.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Ground Up Cafe</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 312px;
+            height: 63px;
+        }
+        .header-icons{
+            padding:10px;
+        }
+        .auto-style2 {
+            height: 63px;
+            margin-right:initial;
+            width: 276px;
+        }
+        .auto-style3 {
+            height: 63px;
+            margin-right: initial;
+            width: 449px;
+        }
+        .auto-style4 {
+            height: 63px;
+            margin-right: initial;
+            width: 604px;
+        }
+        .auto-style5 {
+            height: 63px;
+            margin-right: initial;
+            width: 7239px;
+            background-color: #FFFFFF;
+        }
+        .auto-style6 {
+            height: 100px;
+        }
+      
+        .auto-style8 {
+            position: static;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            height: 61px;
+        }
+        .auto-style9 {
+            width: 100%;
+            height: 211px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+        <div>
+            <table class="auto-style9">
+                <tr style="border-bottom-color: #7d7a7a">
+                    <td class="auto-style1">
+                        <asp:ImageButton ID="ImageButton1" runat="server" Height="122px" ImageUrl="~/Pictures/logoNew.png" CssClass="accordion-item" BorderColor="White" Width="402px" PostBackUrl="~/Homepage.aspx" />
+                    </td>
+                    <td class="auto-style5">
+                        </td>
+                    <td class="auto-style4">
+                        <asp:ImageButton ID="ImageButton2" runat="server" Height="21px" ImageUrl="~/Pictures/search.png" CssClass="accordion-item" BorderColor="White" PostBackUrl="~/Search.aspx" />
+                    </td>
+                    <td class="auto-style3">
+                        <asp:ImageButton ID="ImageButton4" runat="server" Height="35px" ImageUrl="~/Pictures/bag.png" CssClass="accordion-item" BorderColor="White" PostBackUrl="~/Cart.aspx" />
+                    </td>
+                    <td class="auto-style2">
+                        <asp:ImageButton ID="ImageButton3" runat="server" Height="23px" ImageUrl="~/Pictures/user.png" CssClass="accordion-item" BorderColor="White" PostBackUrl="~/BookingDetails.aspx" />
+                    </td>
+                </tr>
+                <tr style="border-bottom-color: #C0C0C0">
+                    <td class="auto-style6" colspan="5">
+                       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">    
+                        </asp:ContentPlaceHolder> 
+                        <span class="accordion-item">&nbsp;</span></td>
+                </tr>
+                </table>
+            <div class="auto-style8">
+
+                <asp:Label ID="footer" runat="server" ForeColor="#999999" Text="© 2022 Ground Up Cafe. All Rights Reserved" BorderColor="White" CssClass="accordion-item" ></asp:Label>
+
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>

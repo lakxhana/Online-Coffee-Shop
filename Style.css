@@ -1,0 +1,163 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.h3 {
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+
+
+.lgnbtn {
+    background-color: #212529;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.crbtn {
+    background-color: transparent;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 19%;
+}
+
+.sibtn {
+    background-color: transparent;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 13%;
+}
+
+.lgnbtn:hover {
+    box-shadow: inset 1000px 0 0 0 #c7a17a;
+    cursor: pointer;
+    color: white;
+}
+
+.regbtn {
+    background-color: #212529;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .regbtn:hover {
+        box-shadow: inset 1000px 0 0 0 #c7a17a;
+        cursor: pointer;
+        color: white;
+    }
+
+
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    background-color: #f8f9fa;
+    width:60%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cnbtn {
+        width: 100%;
+    }
+}
+
+.frmalg {
+    margin: auto;
+    width: 40%;
+}
+
+.auto-style1 {
+    width: 312px;
+    height: 68px;
+}
+
+.header-icons {
+    padding: 10px;
+}
+
+.auto-style2 {
+    height: 68px;
+    margin-right: initial;
+    width: 276px;
+}
+
+.auto-style3 {
+    height: 68px;
+    margin-right: initial;
+    width: 449px;
+}
+
+.auto-style4 {
+    height: 68px;
+    margin-right: initial;
+    width: 604px;
+}
+
+.auto-style5 {
+    height: 68px;
+    margin-right: initial;
+    width: 7239px;
+    background-color: #FFFFFF;
+}
+
+.auto-style6 {
+    height: 100px;
+}
+
+.auto-style7 {
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
